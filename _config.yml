@@ -1,0 +1,24 @@
+# Site settings
+title: Luke Sartori - Product  and User Experience Designer
+email: your-email@domain.com
+url: http://127.0.0.1:4000
+description: "Portfolio showcasing work of Australian user experience and product designer - Luke Sartori"
+meta_author: Luke Sartori
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+navigation:
+ - text: About
+   url: /about
+ - text: Projects
+   url: /projects
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+theme: "2016"

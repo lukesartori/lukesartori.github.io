@@ -1,0 +1,24 @@
+---
+layout: page
+permalink: /projects
+title: Projects - Luke Sartori - Product and User Experience Designer
+heading: Projects
+sub_heading: A selection of my recent work
+---
+
+<div class="container">
+	<div class="row">
+		<div class="twelve columns">
+			<ul class="project-grid">
+				{% for post in site.posts %}
+				<a href="{{ post.url }}">
+					<li class="item" style="background-image:url()">
+						<img src="{{site.url}}/images/{{post.tile_image}}">
+						<h4>{{ post.sub_heading }}</h4>
+					</li>
+				</a>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>

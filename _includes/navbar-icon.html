@@ -1,0 +1,27 @@
+<div class="navbar">
+	<div class="container">
+		<div class="row">
+			<div class="one-third column">
+				<ul class="navigation">
+					<li class="{{ current }}">
+						<a class="{{ current }}" href="{{ link.url }}">About</a>
+					</li>
+				</ul>
+			</div>
+			<div class="one-third column"><a href="/"><img src="../images/LS-logo-blk@2x.png"></a></div>
+			<div class="one-third column">
+				<ul class="navigation">
+					{% for link in site.navigation %}
+						{% assign current = nil %}
+						{% if page.url == link.url or page.layout == link.layout %}
+							{% assign current = 'current' %}
+						{% endif %}
+						<li class="{{ current }}">
+							<a class="{{ current }}" href="{{ link.url }}">Projects</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

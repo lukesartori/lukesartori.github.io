@@ -1,0 +1,22 @@
+{% if page.hero_image == nil %}
+	{% assign hidden = 'hidden' %}
+{% endif %}
+{% if page.layout != 'post' %}
+	{% assign hidden = 'hidden' %}
+{% endif %}
+
+<div class="hero-image {{hidden}}" style="background-image: url({{site.url}}/images/{{page.hero_image}});">&nbsp;</div>
+<div class="page-header">
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns">
+				<h1 class="page-heading">{{page.heading}}</h1>
+				<h2 class="page-subheading">{{page.sub_heading}}</h2>
+				<div class="divider">&nbsp;</div>
+				<div class="post-intro {{ hidden }}">
+					<h3>{{ page.post_intro }}</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

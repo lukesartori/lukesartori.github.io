@@ -1,0 +1,31 @@
+// Colors
+$background: #f2f2f2;
+$primary-color: #2B5574;
+$accent-color: #FA5A34;
+$accent-dark: #9A371F;
+$darker-grey: #3a3a3a;
+$dark-grey: #5C6B73;
+$medium-grey: #98A1A6;
+$light-grey: #F1F2F1;
+
+//Type
+$primary-font: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$heading-font: 'Droid Sans', sans-serif;
+$body-font: 'Open Sans', sans-serif;
+
+$border: 1px solid #ddd;
+
+@mixin heading-h1{
+	font-family: $primary-font;
+	color: $dark-grey;
+	font-size: 1.9rem;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+@mixin heading-h2{
+	font-family: $heading-font;
+	color: $primary-color;
+	font-size: 3.6rem;
+	letter-spacing: 0.1rem;
+}
