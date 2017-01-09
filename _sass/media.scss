@@ -17,7 +17,10 @@
 
 @media only screen and (max-width: 767px) {
 /* phones */
-	.header{
+	.header,
+	.hero-image{
+		background-position: center;
+		height: 220px;
 
 		h1{
 			font-size: 2.3rem;
@@ -39,18 +42,19 @@
 	.project-grid{
 
 		li.item {
-
-			a{
-				width:100%;
-			}
+			width: auto;
+			margin-left: 0;
+			height: 250px;
 		}
 	}
 }
 
 @media only screen and (max-width:  370px) and (orientation: portrait) {
 		/* portrait phones */
-	.header{
+	.header,
+	.hero-image{
 		height: 190px;
+		background-position: center;
 	}
 
 	.navbar{
@@ -67,10 +71,9 @@
 	.project-grid{
 
 		li.item {
-
-			a{
-				width:100%;
-			}
+			width: auto;
+			margin-left: 0;
+			height: 250px;
 		}
 	}
 }

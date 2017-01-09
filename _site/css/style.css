@@ -676,21 +676,31 @@ hr {
     font-size: 2.0rem; } }
 @media only screen and (max-width: 767px) {
   /* phones */
-  .header h1 {
-    font-size: 2.3rem;
-    padding-top: 20px; }
-  .header h2 {
-    font-size: 1.8rem; }
+  .header,
+  .hero-image {
+    background-position: center;
+    height: 220px; }
+    .header h1,
+    .hero-image h1 {
+      font-size: 2.3rem;
+      padding-top: 20px; }
+    .header h2,
+    .hero-image h2 {
+      font-size: 1.8rem; }
 
   .navbar ul li {
     margin: 0 10px; }
 
-  .project-grid li.item a {
-    width: 100%; } }
+  .project-grid li.item {
+    width: auto;
+    margin-left: 0;
+    height: 250px; } }
 @media only screen and (max-width: 370px) and (orientation: portrait) {
   /* portrait phones */
-  .header {
-    height: 190px; }
+  .header,
+  .hero-image {
+    height: 190px;
+    background-position: center; }
 
   .navbar img {
     width: 120px;
@@ -698,7 +708,9 @@ hr {
   .navbar ul li {
     margin: 0 0 0 10px; }
 
-  .project-grid li.item a {
-    width: 100%; } }
+  .project-grid li.item {
+    width: auto;
+    margin-left: 0;
+    height: 250px; } }
 
 /*# sourceMappingURL=style.css.map */
