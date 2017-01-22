@@ -21,7 +21,7 @@ I had salvaged a large 1200 x 600mm slab of timber years earlier, made from a ra
 ![Inspiration](/images/entertainment-unit/tv-unit-inspiration.jpg)
 ![Build phase 1](/images/entertainment-unit/tv-unit-build1.jpg)
 
-Design Process
+### Design Process
 
 I sketched a few ideas and opted to keep things very geometric and hard edged, a common feature of a lot of Scandinavian furniture. The unit had to accommodate a range of HiFi and AV equipment that I currently owned but also be flexible enough to take any new additions in the future. I created some basic orthographic views and dimensions based on the equipment sizes, keeping in mind the effect on the viewing height of the TV.
 
@@ -29,6 +29,7 @@ I sketched a few ideas and opted to keep things very geometric and hard edged, a
 ![Drawings](/images/entertainment-unit/tv-unit-ortho.jpg)
 
 Considering the sizes and the materials I had to play with, I split the unit evenly to create two equal compartments. One side would feature a single shelf, effectively creating three areas of storage and display. Most of the sideboards I was referencing for design inspiration had doors on the front, which in most cases become the focal point of the piece. I decided to keep the front of the unit open and without doors, primarily to allow for the ventilation of equipment inside. I also wanted to show off the design of the amplifiers and equipment sitting in the unit instead of hiding them behind a door.
+
 - - -
 
 ### The Build
@@ -42,6 +43,7 @@ We started off by cutting the slab in two, creating two 1200 × 300mm pieces. On
 ![Build phase 3](/images/entertainment-unit/tv-unit-build3.jpg)
 
 After cutting all the pieces to size, we drilled the pilot holes and screwed the pieces together to get a feel for how it all sat, allowing us to make modifications and adjust any bits that weren’t sitting right. On the right side compartment, we drilled multiple holes at even intervals and used removable shelf pegs so the shelf could be adjustable depending on what equipment was to go in there.
+
 - - -
 
 #### Finishing
@@ -51,6 +53,7 @@ I wanted to avoid a glossy lacquered finish, opting instead to keep it tradition
 ![Finishing](/images/entertainment-unit/tv-unit-finish1.jpg)
 ![Finishing](/images/entertainment-unit/tv-unit-finish2.jpg)
 ![Finishing](/images/entertainment-unit/tv-unit-finish3.jpg)
+
 - - -
 
 ### Wrap up
