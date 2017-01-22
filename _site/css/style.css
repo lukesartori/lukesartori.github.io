@@ -509,6 +509,10 @@ there.
   padding: 0;
   margin: 0; }
 
+html,
+body {
+  height: 100%; }
+
 body {
   background-color: #ffffff; }
 
@@ -616,7 +620,7 @@ hr {
   .header h1 {
     color: #2B5574;
     font-size: 4.0rem;
-    padding-top: 30px;
+    padding-top: 5rem;
     letter-spacing: 0.1rem; }
     .header h1 strong {
       font-weight: 700;
@@ -646,6 +650,7 @@ hr {
   width: 100%;
   margin-top: 30px; }
   .project-grid li.item {
+    display: inline;
     list-style: none;
     margin-bottom: 2.0rem;
     margin-left: 2.0rem;
@@ -666,6 +671,45 @@ hr {
 
 .hidden {
   display: none; }
+
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform; }
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.03);
+  -webkit-box-shadow: 0px 7px 10px -5px #cccccc;
+  -moz-box-shadow: 0px 7px 10px -5px #cccccc;
+  box-shadow: 0px 7px 10px -5px #cccccc; }
+
+.page-content {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -50px; }
+
+.page-content:after {
+  content: "";
+  display: block; }
+
+.site-footer, .page-content:after {
+  height: 50px; }
+
+.site-footer {
+  background: #ffffff; }
+  .site-footer .footer-content {
+    text-align: center;
+    color: #98A1A6;
+    padding: 20px 0;
+    border-top: 1px solid #F1F2F1; }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* tablets and small desktop */
