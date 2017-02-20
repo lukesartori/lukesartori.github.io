@@ -688,7 +688,9 @@ a:hover {
   display: inline-block;
   vertical-align: middle;
   transform: translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0px 7px 7px -5px #cccccc;
+  -moz-box-shadow: 0px 7px 7px -5px #cccccc;
+  box-shadow: 0px 7px 7px -5px #cccccc;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   transition-duration: 0.3s;
@@ -698,14 +700,14 @@ a:hover {
 .hvr-grow:focus,
 .hvr-grow:active {
   transform: scale(1.03);
-  -webkit-box-shadow: 0px 7px 10px -5px #cccccc;
-  -moz-box-shadow: 0px 7px 10px -5px #cccccc;
-  box-shadow: 0px 7px 10px -5px #cccccc; }
+  -webkit-box-shadow: 0px 7px 20px -5px #cccccc;
+  -moz-box-shadow: 0px 7px 20px -5px #cccccc;
+  box-shadow: 0px 7px 20px -5px #cccccc; }
 
 .page-content {
   min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -100px; }
+  margin-bottom: -100px;
+  /* equal to footer height */ }
 
 .page-content:after {
   content: "";
@@ -715,10 +717,10 @@ a:hover {
   height: 100px; }
 
 .site-footer {
-  background: #ffffff; }
+  background: #5C6B73; }
   .site-footer .footer-content {
     text-align: center;
-    color: #98A1A6;
+    color: #F1F2F1;
     padding: 20px 0;
     border-top: 1px solid #F1F2F1; }
 

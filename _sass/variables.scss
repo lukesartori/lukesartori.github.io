@@ -39,3 +39,14 @@ $bp-small-2 : 29.75em;
 $bp-med : 46.8em;
 $bp-large : 50em;
 $bp-xl : 73em;
+
+@mixin tile-shadow{
+	-webkit-box-shadow: 0px 7px 10px -5px rgba(204,204,204,1);
+	-moz-box-shadow: 0px 7px 10px -5px rgba(204,204,204,1);
+	box-shadow: 0px 7px 10px -5px rgba(204,204,204,1);
+}
+@mixin tile-shadow-hover{
+	-webkit-box-shadow: 0px 7px 20px -5px rgba(204,204,204,1);
+	-moz-box-shadow: 0px 7px 20px -5px rgba(204,204,204,1);
+	box-shadow: 0px 7px 20px -5px rgba(204,204,204,1);
+}
