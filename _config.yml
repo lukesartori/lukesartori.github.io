@@ -21,4 +21,4 @@ navigation:
 # Build settings
 markdown: kramdown
 permalink: pretty
-theme: "2016"
+theme: "minima"
