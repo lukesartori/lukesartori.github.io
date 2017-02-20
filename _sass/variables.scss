@@ -1,5 +1,5 @@
 // Colors
-$background: #f2f2f2;
+$background: #f6f6f6;
 $primary-color: #2B5574;
 $accent-color: #FA5A34;
 $accent-dark: #9A371F;
@@ -7,6 +7,8 @@ $darker-grey: #3a3a3a;
 $dark-grey: #5C6B73;
 $medium-grey: #98A1A6;
 $light-grey: #F1F2F1;
+$white: #ffffff;
+$black: #000000;
 
 //Type
 $primary-font: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -29,3 +31,11 @@ $border: 1px solid #ddd;
 	font-size: 3.6rem;
 	letter-spacing: 0.1rem;
 }
+
+//Breakpoints
+
+$bp-small : 24em;
+$bp-small-2 : 29.75em;
+$bp-med : 46.8em;
+$bp-large : 50em;
+$bp-xl : 73em;
